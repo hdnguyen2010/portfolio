@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -9,8 +9,52 @@ class Projects extends Component {
     toggleCategories() {
 	    if(this.state.activeTab === 0) {
 	    	return(
-	    		<div>
-	    			<h1>This is React</h1>
+	    		<div className="projects-grid">
+	    			{/* Project 1 */}
+	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project #1</CardTitle>
+	    				<CardText>
+	    					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	    				</CardText>
+	    				<CardActions border>
+	    				<Button colored>GitHub</Button>
+	    				<Button colored>CodePen</Button>
+	    				<Button colored>LiveDemo</Button>
+	    				</CardActions>
+	    				<CardMenu style={{color: '#fff'}}>
+	    					<IconButton name='share'/>
+	    				</CardMenu>
+	    			</Card>
+	    			{/* Project 2 */}
+	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project #1</CardTitle>
+	    				<CardText>
+	    					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	    				</CardText>
+	    				<CardActions border>
+	    				<Button colored>GitHub</Button>
+	    				<Button colored>CodePen</Button>
+	    				<Button colored>LiveDemo</Button>
+	    				</CardActions>
+	    				<CardMenu style={{color: '#fff'}}>
+	    					<IconButton name='share'/>
+	    				</CardMenu>
+	    			</Card>
+	    			{/* Project 3 */}
+	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project #1</CardTitle>
+	    				<CardText>
+	    					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+	    				</CardText>
+	    				<CardActions border>
+	    				<Button colored>GitHub</Button>
+	    				<Button colored>CodePen</Button>
+	    				<Button colored>LiveDemo</Button>
+	    				</CardActions>
+	    				<CardMenu style={{color: '#fff'}}>
+	    					<IconButton name='share'/>
+	    				</CardMenu>
+	    			</Card>
 	    		</div>
 	    	)
 	    }
@@ -47,13 +91,11 @@ class Projects extends Component {
 				<Tab>MongoDB</Tab>
 				</Tabs>
 
-				<section className="projects-grid">
-					<Grid className="projects-grid">
+					<Grid>
 						<Cell col={12}>
 						<div className="content">{this.toggleCategories()}	</div>
 						</Cell>
 					</Grid>
-				</section>
 			</div>
         )
     }
