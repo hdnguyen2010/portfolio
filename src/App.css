@@ -20,6 +20,13 @@
   display: flex;
 }
 
+.resultContainer .viewThisResult {
+    display: none;
+}
+.resultContainer:hover .viewThisResult {
+    display: inline;
+}
+
 /* resume page css */
 .resume-right-col {
   background: #27221F;
