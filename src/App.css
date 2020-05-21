@@ -68,9 +68,14 @@
   padding-right: 5rem;
 }
 
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
+.avatar-img-1 {
+ border-radius: 50px;
+ /*background: (/image/avatar-1.jpg);*/
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 100px;
+  width: 275px;
+  height: 350px; 
 }
 
 .banner-text {
@@ -111,3 +116,4 @@
   color: white;
   padding: 8px;
 }
+

@@ -19,15 +19,29 @@ class Projects extends Component {
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
 	    			</Card>
-	    			
+
 	    			{/* Project 2 */}
 	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>React Project #2</CardTitle>
-	    				<p>
-	    					Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-	    				</p>
+	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>Travel-Consensus</CardTitle>
+	    				<CardText>
+	    					Web Application designed to help users reach an agreement with travel arrangements
+	    				</CardText>
 	    				<CardActions border>
-	    				<Button colored>GitHub</Button>
+	    				<Button href="https://github.com/hdnguyen2010/travel-consensus" colored>GitHub</Button>
+	    				</CardActions>
+	    				<CardMenu style={{color: '#fff'}}>
+	    				</CardMenu>
+	    			</Card>
+
+	    			{/* Project 3 */}
+	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>My Portfolio</CardTitle>
+	    				<CardText>
+	    					A portfolio project that is bootstrapped with Create React App
+	    				</CardText>
+	    				<CardActions border>
+	    				<Button href="https://github.com/hdnguyen2010/my-portfolio" colored>GitHub</Button>
+	    				<Button href="/" colored>website</Button>
 	    				</CardActions>
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>

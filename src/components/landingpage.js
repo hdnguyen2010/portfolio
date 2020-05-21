@@ -8,9 +8,9 @@ class Landing extends Component {
 				<Grid className="landing-grid">
 					<Cell col={12}>
 						<img 
-							src="https://egqxca.ch.files.1drv.com/y4mKknh6ZfeAtfB_Nv56yaLj4w_2EoWXDPLfNEOSMdBfKpVx3usODrk_SIARK117gRAxahT4iEGZRkZIYsCIJ2-juJL0WGGXo87CTvZpJP5I_HiWUbkgHV7MorjbFvQRPY_a403KZbMdb9O9orAvjuiZ5zqe6DbLzNPHQ4Zu1vQ9HLt8qyDH3Wb0xMegfQgi67q6um4Fpz1LF_UlZLz4Hgn-A?width=600&height=600&cropmode=none"
+							src="/images/avatar-2.jpg"
 							atl="avatar"
-							className="avatar-img"
+							className="avatar-img-1"
 						/>
 						<div className="banner-text">
 							<h1>Full Stack Web Developer</h1>
