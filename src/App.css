@@ -16,15 +16,9 @@
   height: 100%;
 }
 
+/* project page css */
 .projects-grid {
   display: flex;
-}
-
-.resultContainer .viewThisResult {
-    display: none;
-}
-.resultContainer:hover .viewThisResult {
-    display: inline;
 }
 
 /* resume page css */
