@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Skills from './skills';
 
 class Landing extends Component {
     render() {
@@ -13,16 +14,16 @@ class Landing extends Component {
 							className="avatar-img-1"
 						/>
 						<div className="banner-text">
-							<h1>Full Stack Web Developer</h1>
+							<h1>Huy 'Jonny' Nguyen</h1>
 							<hr/>
 							<p>JAVA | JavaScript | Bootstrap | HTML/CSS | React</p>
 							<div className="social-links">
 								{/*LinkedIn*/}
-								<a href="http://google.com" rel="noopener noreferrer" target="_blank">
+								<a href="https://www.linkedin.com/in/hdnguyen2010" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-linkedin-square" aria-hidden="true" />
 								</a>
 							{/*Github*/}
-								<a href="http://google.com" rel="noopener noreferrer" target="_blank">
+								<a href="https://github.com/hdnguyen2010" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-github-square" aria-hidden="true" />
 								</a>
 							</div>

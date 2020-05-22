@@ -4,6 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 
+
 class Resume extends Component{
 	render() {
 		return(
@@ -61,11 +62,11 @@ class Resume extends Component{
 						<h2>Skills</h2>
 						<Skills 
 							skill="javascript"
-							progress={100}
+							progress={70}
 						/>
 						<Skills 
 							skill="JAVA"
-							progress={100}
+							progress={70}
 						/>
 						<Skills 
 							skill="NodeJS"
