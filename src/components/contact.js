@@ -7,7 +7,7 @@ class Contact extends Component {
             <div className="contact-body">
 				<Grid className="contact-grid">
 					<Cell col={6}>
-						<h2>Huy Nguyen</h2>
+						<h2>Huy 'Jonny' Nguyen</h2>
 						<img
 							style={{height: '350px', width: '375px'}} 
 							src="/images/avatar_1.png"
