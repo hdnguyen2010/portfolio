@@ -14,7 +14,7 @@ class Landing extends Component {
 							
 						/>
 						<div className="banner-text">
-							<h1>Major: Computer Game Development</h1>
+							<h1>Major: Computer Game Developer</h1>
 							<h2>Full-Time Student at Lamar University</h2>
 							<hr/>
 							<p>JAVA | JavaScript | Bootstrap | HTML/CSS | React</p>
