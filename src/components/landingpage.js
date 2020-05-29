@@ -14,10 +14,11 @@ class Landing extends Component {
 							
 						/>
 						<div className="banner-text">
-							<h1>Major: Computer Game Developer</h1>
-							<h2>Full-Time Student at Lamar University</h2>
+							<h1>Full-Time Student at Lamar University</h1>
+							<h2>Major: Computer Game Development</h2>
+							<h2>Expected Date of Graduation: December 2021</h2>
+							<h2>Skills: JAVA | JavaScript | Bootstrap | HTML/CSS | React</h2>
 							<hr/>
-							<p>JAVA | JavaScript | Bootstrap | HTML/CSS | React</p>
 							<div className="social-links">
 								{/*LinkedIn*/}
 								<a href="https://www.linkedin.com/in/hdnguyen2010" rel="noopener noreferrer" target="_blank">

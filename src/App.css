@@ -78,7 +78,7 @@ a:hover{
 }
 
 .contact-grid hr {
-  border-top: 5px dotted white;
+  border-top: 3px solid white;
   width: 50%;
   margin: auto;
 }
@@ -97,19 +97,19 @@ a:hover{
 }
 
 .banner-text h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
 }
 
 .banner-text h2 {
-  font-size: 40px;
+  font-size: 37px;
   color: white;
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
+  border-top: 3px solid white;
+  width: 80%;
   margin: auto;
 }
 
@@ -126,7 +126,6 @@ a:hover{
 }
 
 .social-links i {
-  font-size: 3em;
+  font-size: 1.2em;
   color: white;
-  padding: 8px;
 }
