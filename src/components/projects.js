@@ -8,12 +8,13 @@ class Projects extends Component {
 	    			{/* Project 1 */}
 	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
 
-	    				<CardTitle style={{color: 'black', height: '176px', background:'url(/images/vit-prev.png) center / cover'}}>Vitamin-DB</CardTitle>
-	    			<div className="hover-content">
+	    				<CardTitle style={{height: '250px', background:'url(/images/vit-prev.png) center / cover'}}/>
+	    			
 	    				<CardText>
+	    				<h5>Vitamin-DB</h5>
 	    					An app that keeps track of user’s health history, eye prescription, immunization and doctor information
 	    				</CardText>
-	    			</div>
+	    	
 	    				<CardActions border>
 	    				<Button href="https://www.youtube.com/watch?v=vEFQblKqqkI&feature=youtu.be" colored>Video</Button>
 	    				<Button href="https://github.com/hdnguyen2010/vitamin-db" colored>GitHub</Button>
@@ -25,8 +26,9 @@ class Projects extends Component {
 
 	    			{/* Project 2 */}
 	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>Travel-Consensus</CardTitle>
+	    				<CardTitle style={{height: '250px', background:'url(/images/react.png) center / cover'}}/>
 	    				<CardText>
+	    				<h5>Travel-Consensus</h5>
 	    					Web Application designed to help users reach an agreement with travel arrangements
 	    				</CardText>
 	    				<CardActions border>
@@ -38,8 +40,9 @@ class Projects extends Component {
 
 	    			{/* Project 3 */}
 	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-	    				<CardTitle style={{color: 'black', height: '176px', background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}}>My Portfolio</CardTitle>
+	    				<CardTitle style={{height: '250px', background:'url(/images/react.png) center / cover'}}/>
 	    				<CardText>
+	    				<h5>My Portfolio</h5>
 	    					A portfolio project that is bootstrapped with Create React App
 	    				</CardText>
 	    				<CardActions border>

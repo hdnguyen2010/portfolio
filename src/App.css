@@ -110,15 +110,20 @@ body {
   padding: 8px;
 }
 
-.hover-content {
-  display: none;
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
 }
-
-.mdl-card__title:hover .hover-content {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  width: 40rem;
-  height: 30rem;
-  text-align: left;
-  display:block;
+a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 }

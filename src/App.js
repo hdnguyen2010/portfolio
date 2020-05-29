@@ -15,7 +15,7 @@ function App() {
                       <Link to="/">Home</Link>
                       <Link to="/projects">Projects</Link> 
                       <Link to="/contact">Contact</Link>            
-                      <a href={Pdf} traget="_blank">Resume</a>          
+                      <a href={Pdf} traget="_blank"><span>Resume</span></a>          
                   </Navigation>          
               </Header>
                   
