@@ -26,6 +26,10 @@ class Landing extends Component {
 								<a href="https://github.com/hdnguyen2010" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-github-square" aria-hidden="true" />
 								</a>
+							{/*Github*/}
+								<a href="https://www.instagram.com/jonnyboy8p/" rel="noopener noreferrer" target="_blank">
+									<i className="fa fa-instagram" aria-hidden="true" />
+								</a>
 							</div>
 						</div>
 					</Cell>

@@ -114,12 +114,11 @@ body {
   display: none;
 }
 
-.projects-grid:hover .hover-content {
+.mdl-card__title:hover .hover-content {
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   width: 40rem;
   height: 30rem;
   text-align: left;
   display:block;
-  color:white;
 }

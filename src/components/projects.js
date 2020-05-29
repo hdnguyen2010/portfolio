@@ -6,7 +6,7 @@ class Projects extends Component {
         return (
             <div className="projects-grid">
 	    			{/* Project 1 */}
-	    			<Card shadow={5} style={{minWidth: '350', margin: 'auto'}}>
+	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
 
 	    				<CardTitle style={{color: 'black', height: '176px', background:'url(/images/vit-prev.png) center / cover'}}>Vitamin-DB</CardTitle>
 	    			<div className="hover-content">
