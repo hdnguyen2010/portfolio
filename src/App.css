@@ -67,7 +67,7 @@ body {
 
 .contact-list i {
   font-size: 66px;
-  padding-right: 5rem;
+  padding-right: 9rem;
 }
 
 .banner-text {
@@ -97,8 +97,9 @@ body {
 }
 
 .social-links {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  text-align: center;
   width: 50%;
   margin: auto;
 }
@@ -109,3 +110,16 @@ body {
   padding: 8px;
 }
 
+.hover-content {
+  display: none;
+}
+
+.projects-grid:hover .hover-content {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 40rem;
+  height: 30rem;
+  text-align: left;
+  display:block;
+  color:white;
+}

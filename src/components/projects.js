@@ -6,11 +6,14 @@ class Projects extends Component {
         return (
             <div className="projects-grid">
 	    			{/* Project 1 */}
-	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    			<Card shadow={5} style={{minWidth: '350', margin: 'auto'}}>
+
 	    				<CardTitle style={{color: 'black', height: '176px', background:'url(/images/vit-prev.png) center / cover'}}>Vitamin-DB</CardTitle>
+	    			<div className="hover-content">
 	    				<CardText>
 	    					An app that keeps track of user’s health history, eye prescription, immunization and doctor information
 	    				</CardText>
+	    			</div>
 	    				<CardActions border>
 	    				<Button href="https://www.youtube.com/watch?v=vEFQblKqqkI&feature=youtu.be" colored>Video</Button>
 	    				<Button href="https://github.com/hdnguyen2010/vitamin-db" colored>GitHub</Button>

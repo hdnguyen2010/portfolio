@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Skills from './skills';
 
 class Landing extends Component {
     render() {
@@ -9,9 +8,10 @@ class Landing extends Component {
 				<Grid className="landing-grid">
 					<Cell col={12}>
 						<img
+							alt="avatar"
 							style={{padding: '80px', width: '400', height: '350px'}}
 							src="/images/avatar_2.png"
-							atl="avatar"
+							
 						/>
 						<div className="banner-text">
 							<h1>Huy 'Jonny' Nguyen</h1>
