@@ -22,7 +22,7 @@ class Contact extends Component {
 						    <ListItemContent 
 						    style={{fontSize: '30px', fontFamily: 'Anton', color: 'white'}}>
 						    
-						    <a style={{color: 'white'}} href={"mailto:" + this.props.email}>
+						    <a style={{color: 'black'}} href={"mailto:" + this.props.email}>
 						    <i className="fa fa-envelope" aria-hidden="true"/>
 						   		hdnguyen2010@gmail.com
 						   	</a>

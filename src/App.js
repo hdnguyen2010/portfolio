@@ -8,14 +8,14 @@ import Pdf from './Documents/Resume.pdf';
 function App() {
     return (
       <Router>
-        <div className="demo-big-content">
+        <div>
           <Layout>
-              <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Huy 'Jonny' Nguyen</Link>} scroll>
+              <Header className="header-color" title={<Link style={{color: 'black'}} to="/">Huy 'Jonny' Nguyen</Link>} scroll>
                   <Navigation>
-                      <Link to="/">Home</Link>
-                      <Link to="/projects">Projects</Link> 
-                      <Link to="/contact">Contact</Link>            
-                      <a href={Pdf} traget="_blank">Resume</a>          
+                      <Link style={{color: 'black'}} to="/">Home</Link>
+                      <Link style={{color: 'black'}} to="/projects">Projects</Link> 
+                      <Link style={{color: 'black'}} to="/contact">Contact</Link>            
+                      <a style={{color: 'black', fontweight:'bold'}} href={Pdf} traget="_blank">Resume</a>          
                   </Navigation>          
               </Header>
                   
