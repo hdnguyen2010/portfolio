@@ -4,15 +4,10 @@ import { Grid, Cell } from 'react-mdl';
 class Landing extends Component {
     render() {
         return (
-            <div style={{width: '100%', margin: 'auto'}}>
+            <div>
 				<Grid className="landing-grid">
 					<Cell col={12}>
-						<img
-							alt="avatar"
-							style={{paddingTop: '80px', width: '400', height: '350px'}}
-							src="/images/avatar_2.png"
-							
-						/>
+						
 						<div className="banner-text">
 							<h1>Student</h1>
 							<h2>I am studying for a B.S. in Computer Game Development at Lamar University. I expect to graduate in Fall 2021.</h2>
