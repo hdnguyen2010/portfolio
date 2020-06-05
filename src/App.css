@@ -15,6 +15,10 @@ a:hover{
     box-shadow: 0 0 10px gray,0 0 40px gray,0 0 80px gray;
 }
 
+ProgressBar {
+  background-color: black;
+}
+
 .projects-grid {
   display: flex;
 }
@@ -37,11 +41,20 @@ a:hover{
 
 .email-button{
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   border: 1px solid grey;
   margin-left: 65px;
-  margin-right: 121px;
+  margin-right: 127px;
   background-color: rgb(66,66,66);
   padding-right: 0;
   padding-left: 9px;
+  border-radius: 100px;
+}
+
+.skills-grid {
+  margin: auto;
+}
+
+.mdl-progress-red > .progressbar {
+    background-color: rgb(255,0,0);
 }
