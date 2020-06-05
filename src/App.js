@@ -14,7 +14,7 @@ function App() {
               className="header-color"
               style={{width:"300px"}} 
               >
-            <h2 className="full-name">Huy Nguyen</h2>
+            <h2 className="full-name">Huy 'Jonny' Nguyen</h2>
               <img
               alt="avatar"
               style={{paddingLeft: '10%', width: '80%', height: '25%'}}
@@ -45,8 +45,15 @@ function App() {
                       <Link style={{color: 'black'}} to="/">About Me</Link>
                       <Link style={{color: 'black'}} to="/projects">Projects</Link> 
                       <Link style={{color: 'black'}} to="/contact">Contact</Link>            
-                      <a style={{color: 'black', fontweight:'bold'}} href={Pdf} traget="_blank">Resume</a>          
+                      <a style={{color: 'black', fontweight:'bold'}} href={Pdf} traget="_blank">Resume</a>
+
                   </Navigation>
+                  <div style={{float:'center', margin:'20px' }}>
+                <hr style={{width:'83%', borderTop:'1px solid grey', margin:'auto'}}/>
+                </div>
+                <a className="email-button" href={"mailto:"}>
+                  <i className="fa fa-envelope" style={{fontSize:'16px',paddingRight:'6px'}} aria-hidden="true"/>E-mail
+                </a>
               </Drawer>
                   
               <Content style={{marginLeft:'320px'}}>
