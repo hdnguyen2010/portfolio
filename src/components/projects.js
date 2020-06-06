@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, CardActions, Button, CardMenu, CardText } from 'react-mdl';
+import { Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, CardText } from 'react-mdl';
 
 class Projects extends Component {
     render() {
         return (
-            <div className="projects-grid">
+            <Grid className="projects-grid">
 	    			{/* Project 1 */}
-	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    			<Cell col={6}>
+	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
 
 	    				<CardTitle style={{height: '250px', background:'url(/images/vit-prev.png) center / cover'}}/>
 	    			
@@ -23,9 +24,10 @@ class Projects extends Component {
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
 	    			</Card>
-
+	    			</Cell>
+	    			<Cell col={6}>
 	    			{/* Project 2 */}
-	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
 	    				<CardTitle style={{height: '250px', background:'url(/images/react.png) center / cover'}}/>
 	    				<CardText>
 	    				<h5>Travel-Consensus</h5>
@@ -37,9 +39,11 @@ class Projects extends Component {
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
 	    			</Card>
+	    			</Cell>
 
 	    			{/* Project 3 */}
-	    			<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+	    			<Cell col={6}>
+	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
 	    				<CardTitle style={{height: '250px', background:'url(/images/port-prev.png) center / cover'}}/>
 	    				<CardText>
 	    				<h5>My Portfolio</h5>
@@ -52,8 +56,41 @@ class Projects extends Component {
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
 	    			</Card>
-	    			
-	    		</div>
+	    			</Cell>
+	    			{/* Project 3 */}
+	    			<Cell col={6}>
+	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
+	    				<CardTitle style={{height: '250px', background:'url(/images/port-prev.png) center / cover'}}/>
+	    				<CardText>
+	    				<h5>My Portfolio</h5>
+	    					A portfolio project that is bootstrapped with Create React App
+	    				</CardText>
+	    				<CardActions border>
+	    				<Button href="https://github.com/hdnguyen2010/my-portfolio" colored>GitHub</Button>
+	    				<Button href="/" colored>website</Button>
+	    				</CardActions>
+	    				<CardMenu style={{color: '#fff'}}>
+	    				</CardMenu>
+	    			</Card>
+	    			</Cell>
+	    			{/* Project 3 */}
+	    			<Cell col={6}>
+	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
+	    				<CardTitle style={{height: '250px', background:'url(/images/port-prev.png) center / cover'}}/>
+	    				<CardText>
+	    				<h5>My Portfolio</h5>
+	    					A portfolio project that is bootstrapped with Create React App
+	    				</CardText>
+	    				<CardActions border>
+	    				<Button href="https://github.com/hdnguyen2010/my-portfolio" colored>GitHub</Button>
+	    				<Button href="/" colored>website</Button>
+	    				</CardActions>
+	    				<CardMenu style={{color: '#fff'}}>
+	    				</CardMenu>
+	    			</Card>
+	    			</Cell>
+
+	    		</Grid>
         )
     }
 }

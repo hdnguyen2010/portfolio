@@ -15,10 +15,6 @@ a:hover{
     box-shadow: 0 0 10px gray,0 0 40px gray,0 0 80px gray;
 }
 
-ProgressBar {
-  background-color: black;
-}
-
 .projects-grid {
   display: flex;
 }
@@ -48,13 +44,27 @@ ProgressBar {
   background-color: rgb(66,66,66);
   padding-right: 0;
   padding-left: 9px;
-  border-radius: 100px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  border-radius: 5px;
 }
 
 .skills-grid {
   margin: auto;
 }
 
-.mdl-progress-red > .progressbar {
-    background-color: rgb(255,0,0);
+.mdl-progress-black > .progressbar {
+    background-color: rgb(66,66,66) !important;
+    height: 25px;
+}
+
+.mdl-progress-black > .bufferbar {
+  background-image: linear-gradient(to right, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)) !important;
+  border: 1px solid black;
+  height: 23px;
+}
+
+.mdl-progress-black > .auxbar {
+    background-image: linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)) !important;
+    height: 25px;
 }
