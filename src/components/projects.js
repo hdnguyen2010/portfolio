@@ -18,8 +18,8 @@ class Projects extends Component {
 	    	
 	    				<CardActions border>
 	    				<Button href="https://www.youtube.com/watch?v=vEFQblKqqkI&feature=youtu.be" colored>Video</Button>
-	    				<Button href="https://github.com/hdnguyen2010/vitamin-db" colored>GitHub</Button>
-	    				<Button href="http://vitamin-db.herokuapp.com/" colored>LiveDemo</Button>
+	    				<Button href="https://github.com/hdnguyen2010/vitamin-db" colored>Code</Button>
+	    				<Button href="http://vitamin-db.herokuapp.com/" colored>Demo</Button>
 	    				</CardActions>
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
@@ -34,7 +34,7 @@ class Projects extends Component {
 	    					Web Application designed to help users reach an agreement with travel arrangements
 	    				</CardText>
 	    				<CardActions border>
-	    				<Button href="https://github.com/hdnguyen2010/travel-consensus" colored>GitHub</Button>
+	    				<Button href="https://github.com/hdnguyen2010/travel-consensus" colored>Code</Button>
 	    				</CardActions>
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
@@ -50,40 +50,38 @@ class Projects extends Component {
 	    					A portfolio project that is bootstrapped with Create React App
 	    				</CardText>
 	    				<CardActions border>
-	    				<Button href="https://github.com/hdnguyen2010/my-portfolio" colored>GitHub</Button>
 	    				<Button href="/" colored>website</Button>
+	    				<Button href="https://github.com/hdnguyen2010/my-portfolio" colored>Code</Button>
 	    				</CardActions>
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
 	    			</Card>
 	    			</Cell>
-	    			{/* Project 3 */}
+	    			{/* Project 4 */}
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(/images/port-prev.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(/images/coming-soon.png) center / cover'}}/>
 	    				<CardText>
-	    				<h5>My Portfolio</h5>
-	    					A portfolio project that is bootstrapped with Create React App
+	    				<h5>Project Place Holder</h5>
 	    				</CardText>
 	    				<CardActions border>
-	    				<Button href="https://github.com/hdnguyen2010/my-portfolio" colored>GitHub</Button>
 	    				<Button href="/" colored>website</Button>
+	    				<Button href="/" colored>Code</Button>
 	    				</CardActions>
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
 	    			</Card>
 	    			</Cell>
-	    			{/* Project 3 */}
+	    			{/* Project 5 */}
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(/images/port-prev.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(/images/coming-soon.png) center / cover'}}/>
 	    				<CardText>
-	    				<h5>My Portfolio</h5>
-	    					A portfolio project that is bootstrapped with Create React App
+	    				<h5>Project Place Holder</h5>
 	    				</CardText>
 	    				<CardActions border>
-	    				<Button href="https://github.com/hdnguyen2010/my-portfolio" colored>GitHub</Button>
 	    				<Button href="/" colored>website</Button>
+	    				<Button href="/" colored>Code</Button>
 	    				</CardActions>
 	    				<CardMenu style={{color: '#fff'}}>
 	    				</CardMenu>
