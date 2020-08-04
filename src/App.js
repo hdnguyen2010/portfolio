@@ -4,11 +4,35 @@ import { Layout, Drawer, Navigation, Content } from 'react-mdl';
 import Main from './components/main';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Pdf from './Documents/Resume.pdf';
+import Particles from 'react-particles-js';
 
 function App() {
     return (
-      <Router>
-        <div >
+      <Router>            
+        <div>
+<Particles
+  style={{ position: "absolute" }}
+  height="95%"
+  width="95%"
+  params={{
+    particles: {
+      color: {
+        value: "#000000"
+      },
+      line_linked: {
+        color: {
+          value: "#000000"
+        }
+      },
+      number: {
+        value: 50
+      },
+      size: {
+        value: 3
+      }
+    }
+  }}
+/>
           <Layout fixedDrawer>
               <Drawer 
               className="header-color"
@@ -54,8 +78,7 @@ function App() {
                 <a className="email-button" href={"mailto:"}>
                   <i className="fa fa-envelope" style={{fontSize:'14px',paddingRight:'6px'}} aria-hidden="true"/>E-mail
                 </a>
-              </Drawer>
-                  
+              </Drawer> 
               <Content style={{marginLeft:'320px'}}>
                 <Main />
               </Content>
