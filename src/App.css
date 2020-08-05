@@ -1,4 +1,18 @@
 
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+    width: 265px;
+}
+
 a{
     position: relative;
     display: inline-block;
@@ -11,6 +25,7 @@ a{
     overflow: hidden;
     transition: 0.2s;
 }
+
 a:hover{
     box-shadow: 0 0 10px gray,0 0 40px gray,0 0 80px gray;
 }
