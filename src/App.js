@@ -51,11 +51,11 @@
             size: {
               value: 3,
               random: false,
-              anim: {
+              anime: {
                 enable: true,
                 speed: 2,
                 size_min: 0.1,
-                sync: false
+                sync: true
               }
             },
             line_linked: {

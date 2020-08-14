@@ -1,8 +1,3 @@
-
-*{
-  font-family: 'Open Sans', sans-serif;
-}
-
 .copyright {
     position: absolute;
     bottom: 5px;
@@ -11,6 +6,10 @@
     margin: 0 auto;
     font-size: 15px;
     width: 265px;
+}
+
+.full-name {
+  font-family: "Open Sans";
 }
 
 a{
