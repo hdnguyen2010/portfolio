@@ -44,7 +44,7 @@ class Projects extends Component {
 	    			{/* Project 3 */}
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(./images/port-prev.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/port-prev.PNG) center / cover'}}/>
 	    				<CardText>
 	    				<h5>My Portfolio</h5>
 	    					A portfolio project that is bootstrapped with Create React App
