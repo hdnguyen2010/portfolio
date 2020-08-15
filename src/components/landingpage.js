@@ -4,7 +4,7 @@ class Landing extends Component {
     render() {
         return (
             <div className= "banner-text">
-				<h1 style= {{fontWeight: "bold", fontFamily: "Lato"}}>Hi, I'm Huy 'Jonny' Nguyen</h1>
+				<h1 style= {{fontWeight: "bold", fontFamily: "Lato"}}>Hi, I am Huy 'Jonny' Nguyen</h1>
 
 				<h2 style= {{fontFamily: "Lato", color:"grey"}}>Full-time Student</h2>
 
