@@ -9,7 +9,7 @@ class Projects extends Component {
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
 
-	    				<CardTitle style={{height: '250px', background:'url(./images/vit-prev.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/vit-prev.PNG) center / cover'}}/>
 	    			
 	    				<CardText>
 	    				<h5>Vitamin-DB</h5>
@@ -44,7 +44,7 @@ class Projects extends Component {
 	    			{/* Project 3 */}
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(./images/port-prev.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/port-prev.PNG) center / cover'}}/>
 	    				<CardText>
 	    				<h5>My Portfolio</h5>
 	    					A portfolio project that is bootstrapped with Create React App
@@ -87,6 +87,22 @@ class Projects extends Component {
 	    				</CardMenu>
 	    			</Card>
 	    			</Cell>
+	    		{/* Project 6 */}
+	    			<Cell col={6}>
+	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
+	    				<CardTitle style={{height: '250px', background:'url(./images/coming-soon.png) center / cover'}}/>
+	    				<CardText>
+	    				<h5>Project Place Holder</h5>
+	    				</CardText>
+	    				<CardActions border>
+	    				<Button href="/" colored>website</Button>
+	    				<Button href="/" colored>Code</Button>
+	    				</CardActions>
+	    				<CardMenu style={{color: '#fff'}}>
+	    				</CardMenu>
+	    			</Card>
+	    			</Cell>
+
 
 	    		</Grid>
         )

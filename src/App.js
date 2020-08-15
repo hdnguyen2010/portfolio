@@ -136,7 +136,7 @@
                           <Link style={{color: 'black'}} to="/">About Me</Link>
                           <Link style={{color: 'black'}} to="/projects">Projects</Link> 
                           <Link style={{color: 'black'}} to="/skills">Skills</Link>            
-                          <a style={{color: 'black'}} href={Pdf} traget="_blank">Resume</a>
+                          <a style={{color: 'black'}} href={Pdf} target="_blank">Resume</a>
 
                       </Navigation>
                       <div style={{float:'center', margin:'20px' }}>
