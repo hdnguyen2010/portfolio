@@ -9,7 +9,7 @@ class Projects extends Component {
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
 
-	    				<CardTitle style={{height: '250px', background:'url(/images/vit-prev.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/vit-prev.png) center / cover'}}/>
 	    			
 	    				<CardText>
 	    				<h5>Vitamin-DB</h5>
@@ -28,7 +28,7 @@ class Projects extends Component {
 	    			<Cell col={6}>
 	    			{/* Project 2 */}
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(/images/react.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/react.png) center / cover'}}/>
 	    				<CardText>
 	    				<h5>Travel-Consensus</h5>
 	    					Web Application designed to help users reach an agreement with travel arrangements
@@ -44,7 +44,7 @@ class Projects extends Component {
 	    			{/* Project 3 */}
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(/images/port-prev.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/port-prev.png) center / cover'}}/>
 	    				<CardText>
 	    				<h5>My Portfolio</h5>
 	    					A portfolio project that is bootstrapped with Create React App
@@ -60,7 +60,7 @@ class Projects extends Component {
 	    			{/* Project 4 */}
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(/images/coming-soon.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/coming-soon.png) center / cover'}}/>
 	    				<CardText>
 	    				<h5>Project Place Holder</h5>
 	    				</CardText>
@@ -75,7 +75,7 @@ class Projects extends Component {
 	    			{/* Project 5 */}
 	    			<Cell col={6}>
 	    			<Card shadow={5} style={{width: '450px', margin: 'auto'}}>
-	    				<CardTitle style={{height: '250px', background:'url(/images/coming-soon.png) center / cover'}}/>
+	    				<CardTitle style={{height: '250px', background:'url(./images/coming-soon.png) center / cover'}}/>
 	    				<CardText>
 	    				<h5>Project Place Holder</h5>
 	    				</CardText>

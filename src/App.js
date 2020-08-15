@@ -109,7 +109,7 @@
                   <img
                   alt="avatar"
                   style={{paddingLeft: '12%', width: '75%', height: '25%'}}
-                  src="/images/avatar_2.png"
+                  src="./images/avatar_2.png"
                 />
                 <div className="social-links">
                     {/*LinkedIn*/}
@@ -121,7 +121,7 @@
                       <i className="fa fa-github-square" aria-hidden="true" />
                     </a>
                   {/*Instagram*/}
-                    <a href="https://www.instagram.com/HuyJonnyNguyen/" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.instagram.com/hdnguyen2010/" rel="noopener noreferrer" target="_blank">
                       <i className="fa fa-instagram" aria-hidden="true" />
                     </a>
                   {/*Facebook*/}
