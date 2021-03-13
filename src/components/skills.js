@@ -12,16 +12,12 @@ class Skills extends Component {
 				</div>
 				<div style={{marginTop:'50px'}}>
 				<h5>Java</h5>
-				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={80}/>
+				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={75}/>
 				</div>
 				<div style={{marginTop:'50px'}}>
 				<h5>HTML/CSS</h5>
 				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={83}/>
 				</div>
-				<div style={{marginTop:'50px'}}>
-				<h5>React</h5>
-				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={50}/>
-				</div>	
 				<div style={{marginTop:'50px'}}>
 				<h5>Bootstrap</h5>
 				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={75}/>
@@ -41,6 +37,18 @@ class Skills extends Component {
 				<h5>NodeJS</h5>
 				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={80}/>
 				</div>
+				<div style={{marginTop:'50px'}}>
+				<h5>Microsoft Visual Studio</h5>
+				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={75}/>
+				</div>
+				<div style={{marginTop:'50px'}}>
+				<h5>C++</h5>
+				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={50}/>
+				</div>
+				<div style={{marginTop:'50px'}}>
+				<h5>React</h5>
+				<ProgressBar class="mdl-progress mdl-js-progress mdl-progress-black" progress={50}/>
+				</div>	
     	</Cell>
     	</Grid>
         )
