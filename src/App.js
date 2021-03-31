@@ -2,7 +2,7 @@
     import './App.css';
     import { Layout, Drawer, Navigation, Content } from 'react-mdl';
     import Main from './components/main';
-    import { BrowserRouter as Router, Link } from 'react-router-dom';
+    import { HashRouter as Router, Link } from 'react-router-dom';
     import Pdf from './Documents/Resume.pdf';
     import Particles from 'react-particles-js';
 
