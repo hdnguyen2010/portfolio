@@ -105,7 +105,7 @@
                   className="header-color"
                   style={{width:"300px"}} 
                   >
-                <h2 className="full-name">Huy 'Jonny' Nguyen</h2>
+                <h1 className="full-name">Welcome!</h1>
                   <img
                   alt="avatar"
                   style={{paddingLeft: '12%', width: '75%', height: '25%'}}
@@ -136,7 +136,7 @@
                           <Link style={{color: 'black'}} to="/">About Me</Link>
                           <Link style={{color: 'black'}} to="/projects">Projects</Link> 
                           <Link style={{color: 'black'}} to="/skills">Skills</Link>            
-                          <a style={{color: 'black'}} href={Pdf} target="_blank">Resume</a>
+                          <a style={{color: 'black'}} href={Pdf}>Resume</a>
 
                       </Navigation>
                       <div style={{float:'center', margin:'20px' }}>
